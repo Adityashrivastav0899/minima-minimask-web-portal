@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Minima MiniMask Portal</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Minima MiniMask Portal 🚀</h1>
+
+<button onclick="connect()">Connect MiniMask</button>
+
+<p><b>Address:</b> <span id="address">Not connected</span></p>
+<p><b>Public Key:</b> <span id="pubkey">Not loaded</span></p>
+
+<button onclick="getBalance()">Get Balance</button>
+<pre id="balance"></pre>
+
+<h3>Send Payment</h3>
+<input id="to" placeholder="Address">
+<input id="amount" placeholder="Amount">
+<button onclick="send()">Send</button>
+
+<pre id="output"></pre>
+
+<script src="script.js"></script>
+
+</body>
+</html>
